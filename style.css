@@ -1,4 +1,47 @@
 nav{
-    font-family: 'Libre Baskerville', serif;
-font-family: 'Roboto', sans-serif;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+.nave-titele{
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right:30px ;
+    color: var(--dark-02, #424242);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; 
+}
+.banner-content{
+   max-width: 800px;
+   text-align: center;
+   margin: 0 auto;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700px;
+    color: var(--dark-01, #131313);
+
+}
+.banner-description{
+    width: 868px;
+     color: #727272;
+     font-size: 16px;
 }
