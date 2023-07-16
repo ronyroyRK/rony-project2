@@ -61,11 +61,65 @@ nav li{
 }
 
 
+
+
+/*--main--*/
+
+
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.tems-contaner{
+    display: flex;
+    align-items: center;
+}
+
+.tems-img-contaner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.tems-contant{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.span-1{
+    color: #727272;
+    font-size: 45px;
+}
+.span-2{
+    color: #131313;
+    font-size: 45px
+}
+.span-3{
+    color: #FF900E;
+    font-size: 45px;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px){
             header{
                 padding: 20px;
             }
-            nav{
+            nav, 
+            .tems-contaner
+            {
                 flex-direction: column;
             }
+            .tems-img-contaner{
+                grid-template-columns:1fr;
+            }
 }
+
+
+
